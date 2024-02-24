@@ -1,0 +1,98 @@
+body {
+  color:pink;
+  margin: 0px;
+}
+
+.zindex {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .8;
+  }
+
+
+div {
+  width: 25px;
+  float: left;
+  font-size: 250%;
+  padding: 3px;
+}
+
+h1 {
+  padding-left: 28%;
+  font-size: 50px;
+  color: #F2F1EB;
+}
+
+#top-letter {
+  padding-right: 5%;
+  font-size: 40px;
+  text-align: center;
+}
+
+#hint {
+  text-align: center;
+  color: #F2F1EB;
+  margin-top: 7%;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 0 10% 0 10%;
+  text-align: center;
+  color: #e6c2bf;
+}
+
+
+p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+.button {
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(35, 37, 138);
+  padding: 9px 32px;
+  margin-bottom: 2%;
+  margin-left: 45%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.button-reset {
+  background-color: whitesmoke;
+  border: none;
+  color: rgb(35, 37, 138);
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  padding: 7%;
+  font-size: 28px;
+  margin-left: 482%;
+
+}
+
+#guess {
+  height: 50px;
+  display: block;
+  font-size: 30px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 4px solid green;
+  margin-bottom: 6px;
+  margin-left: 38%;
+  width:350px;
+}
+
+#answer {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
